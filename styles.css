@@ -1,0 +1,175 @@
+body {
+  background-color: #F5F5F5;
+  white-space: nowrap;
+  min-width: 1200px;
+  font-color: #363636;
+  font-family: 'Biryani', sans-serif;
+}
+
+aside {
+  height: 700px;
+}
+
+.elephant {
+  width: 60px;
+  float: left;
+  margin-bottom: 200px;
+  padding-top: 10px;
+}
+
+.welcome {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: rgb(142, 209, 220);
+  background: linear-gradient(114deg, rgba(142, 209, 220, 1) 0%, rgba(227, 244, 246, 1) 100%);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 27px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.overview-card {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-grid;
+  box-shadow: rgba(0, 0, 0, 0.05);
+  font-size: 10px;
+}
+
+data {
+  font-size: 18px;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  white-space: normal;
+}
+
+.left-column {
+  width: 55px;
+  background-color: white;
+}
+
+.middle-column {
+  width: 40%;
+  margin-right: 50px;
+  position: relative;
+}
+
+.credit-score {
+  right: 0;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 108px;
+  padding: 25px 15px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.row {
+  display: block;
+  background-color: white;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.accountrow {
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.manage-button {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #1CA3BA;
+  float: right;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+img.icon {
+  margin: 5px 10px;
+}
+
+.credit-score {
+  float: right;
+  padding-right: 60px;
+}
+
+.expenses {
+  padding-right: 50px;
+}
+
+.income {
+  padding-right: 70px;
+}
+
+.account-type {
+  float: right;
+  padding-bottom: 10px;
+}
+
+.bank {
+  padding-left: 75px;
+}
+
+.recent {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.date {
+  font-size: 9px;
+}
+
+.store {
+  font-size: 13px;
+}
+
+.amount {
+  font-size: 15px;
+}
