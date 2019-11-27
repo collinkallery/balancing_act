@@ -143,20 +143,28 @@ img.icon:hover {
   padding-left: 3px;
   padding-right: 2px;
   border-left: 3px #1CA3BA solid;
-  border-radius: 2px;
+  border-radius: 0px;
+}
+
+#img2:hover,
+.icon-active {
+  padding-left: 3px;
+  padding-right: 2px;
+  border-left: 3px #1CA3BA solid;
+  border-radius: 0px;
 }
 
 .credit-score {
   float: right;
-  padding-right: 60px;
+  padding-right: 90px;
 }
 
 .expenses {
-  padding-right: 50px;
+  padding-right: 90px;
 }
 
 .income {
-  padding-right: 70px;
+  padding-right: 90px;
 }
 
 .account-type {
@@ -193,4 +201,9 @@ img.icon:hover {
   padding: 3px;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+#entire-section {
+  display: inline-block;
+  width: 100%;
 }
