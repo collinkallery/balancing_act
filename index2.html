@@ -1,0 +1,162 @@
+<html>
+
+<head>
+  <title>Balancing Act</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+  <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="middle-column">
+    <div class="trans-header">
+      <h1>Transactions</h1>
+      <button type="button">ALL</button>
+      <button type="button">INFLOW</button>
+      <button type="button">OUTFLOW</button>
+    </div>
+    <table style="width:100%">
+      <tr>
+        <th>Date</th>
+        <th>Account</th>
+        <th>Payee</th>
+        <th>Inflow</th>
+        <th>Outflow</th>
+      </tr>
+      <tr>
+        <td class="date">10-25-19</td>
+        <td class="account">Credit Card</td>
+        <td class="payee">Target</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$82.35</td>
+      </tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Credit Card</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+      <tr>
+        <td class="date">10-22-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Paycheck</td>
+        <td class="inflow">$1,319.12</td>
+        <td class="outflow">-</td>
+      </tr>
+      <tr>
+        <td class="date">10-21-19</td>
+        <td class="account">Credit Card</td>
+        <td class="payee">Trader Joe's</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$54.92</td>
+      </tr>
+      <tr>
+        <td class="date">10-20-19</td>
+        <td class="account">Credit Card</td>
+        <td class="payee">Shell</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$46.23</td>
+      </tr>
+      <tr>
+        <td class="date">10-19-19</td>
+        <td class="account">Savings</td>
+        <td class="payee">Rent</td>
+        <td class="inflow">$800.00</td>
+        <td class="outflow">-</td>
+      </tr>
+      <tr>
+        <td class="date">10-19-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Hapa Sushi</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$13.97</td>
+      </tr>
+      <tr>
+        <td class="date">10-18-19</td>
+        <td class="account">Credit Card</td>
+        <td class="payee">Pig Train</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$4.83</td>
+      </tr>
+      <tr>
+        <td class="date">10-18-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">RTD</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$6.00</td>
+      </tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+      <tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+      <tr>
+        <td class="date">10-24-19</td>
+        <td class="account">Checking</td>
+        <td class="payee">Express</td>
+        <td class="inflow">-</td>
+        <td class="outflow">$212.24</td>
+      </tr>
+    </table>
+  </main>
+
+  <section class="right-column">
+    <div id="trans-table">
+      <h1>New Transaction</h1>
+      <p>Type of Transaction</p>
+      <select>
+        <option value="expense">Expense</option>
+        <option value="refund">Refund</option>
+        <option value="void">Void</option>
+      </select>
+      <p>Category</p>
+      <select>
+        <option value="select-one">- Select One -</option>
+      </select>
+      <p>Account From</p>
+      <select>
+        <option value="select-one">- Select One -</option>
+      </select>
+      <br><br>
+      <form action="/action_page.php">
+        Payee:<br>
+        <input type="text">
+        <br>
+        Outflow:<br>
+        <input type="text">
+        <br>
+        Category:<br>
+        <input type="text">
+        <br><br>
+        <button type="button">Log Expense</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+
+</html>

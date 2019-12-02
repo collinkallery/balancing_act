@@ -13,6 +13,7 @@ var clipboardHover = document.getElementById("img1");
 var walletHover = document.getElementById("img2");
 var profileHover = document.getElementById("img3");
 var hideMain = document.getElementById("entire-section")
+var hideTransactions = document.getElementById("transaction-sections")
 
 
 function addHover1 () {
@@ -23,6 +24,7 @@ function addHover1 () {
     walletHover.classList.remove("icon-active");
     profileHover.classList.remove("icon-active");
     hideMain.style.display = "inline-block";
+    hideTransactions.style.display = "none";
   }
 }
 
@@ -37,6 +39,7 @@ function addHover2 () {
     clipboardHover.classList.remove("icon-active");
     profileHover.classList.remove("icon-active");
     hideMain.style.display = "none";
+    hideTransactions.style.display = "inline-block";
   }
 }
 
